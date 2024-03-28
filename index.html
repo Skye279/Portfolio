@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/17cb533d94.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--------Header--------->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/FRIENDS_LOGO.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Contactes">Contactes</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Étudiante</p>
+          <h1>
+            Bonjour, <br />
+            je suis <span>Imène Ameur</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-----------About---------->
+    <div id="about">
+      <div class="container">
+       <div class="row">
+          <div class="about-col-1">
+            <img src="images/photo.jpg">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">À propos de moi</h1>
+            <p>J'étais étudiante en lettres modernes, mais j'ai décidé de changer pour le développement web car je netrouvais plus de passion dans mon domaine précédent.
+                Ainsi, j'ai entamé un apprentissage autodidacte du développement web à travers des vidéos YouTube et des formations gratuites disponibles en ligne. 
+                Cet apprentissage m'a permis de créer mon premier portfolio.</p>
+
+                <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('Compètences')">Compètences</p>
+                  <p class="tab-links"  onclick="opentab('Expériences')">Expériences</p>
+                  <p class="tab-links"  onclick="opentab('formations')">Formations</p>
+                </div>
+                  <!-----------Compétences------------->
+                
+                <div class="tab-contents active-tab" id="Compètences">
+                 <ul>
+                  <li><span>Communication</span></li>
+                  <li>Web développement<br><span>HTML / CSS</span></li>
+                  <li>Résolution de problèmes</li>
+                  <li>Autonome</li>
+                </div>
+            <!-----------Expériences------------->
+                <div class="tab-contents" id="Expériences">
+                  <ul>
+                   <li>2023-2024<span><br>Employée commerciale</span><br><span class="lieu">U Express</span></li>
+                   <li>2023-2024<span><br>Intérim commerciale</span><br><span class="lieu">Station Gourmande</span></li>
+                   <li>2020-2021<span><br>Cours particuliers</span><br><span class="lieu">Français</span></li>
+                 </div>
+              <!-----------Formations------------->
+              <div class="tab-contents" id="formations">
+                <ul>
+                 <li>2022-2024<span><br>Licence Lettres modernes</span><br><span class="lieu">Université de Tours</span></li>
+                 <li>2020-2022<span><br>Licence Langues étrangères</span><br><span class="lieu">University - Alger2 </span></li>
+                 <li>2019-2020<span><br>Baccalauréat Langues étrangères</span><br><span class="lieu">Lycée Aban Ramdan</span></li>
+               </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    <!-----------Services------------->
+    <div id="services"> 
+      <div class="container">
+        <h1 class="sub-title">Mes services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web développement </h2>
+            <p>
+              Étant encore débutante en développement web, je n'ai pas encore une gamme complète de services à proposer. 
+              Cependant, cette page se remplira progressivement au fur et à mesure de mes avancements dans ce domaine.</p>
+            <a href="#">Voir plus</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-comment"></i>
+            <h2>Communication</h2>
+            <p> test</p>
+            <a href="#">Voir plus</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-lightbulb"></i>
+            <h2>Résolution de problèmes </h2>
+            <p> test</p>
+            <a href="#">Voir plus</a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!------------Portfolio------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">Mes travaux</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="Images/photo.PNG"> 
+        <div class="layer">
+          <h3>Portfolio</h3>
+          <p>Ce site à été fait par moi-même.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Images/FRIENDS_LOGO.png">
+        <div class="layer">
+          <h3>To do list</h3>
+          <p>Bientôt disponible.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="Images/FRIENDS_LOGO.png">
+        <div class="layer">
+          <h3>Mini jeu</h3>
+          <p>Bientôt disponible. </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/Skye279" class="button">Voir plus</a>
+  </div>
+</div>
+<!------------Contactes------------->
+<div class="Contactes" id="Contactes">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contactez moi</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>Imeneameur6@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>06xxxxxxxx</p>
+        <!------------icones------------->
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/imene-ameur-40b79626b/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/imene.amr_/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://discord.gg/friends"><i class="fa-brands fa-discord"></i></a>
+          <a href="https://github.com/Skye279"><i class="fa-brands fa-github"></i></a>
+        </div>
+      <a href="/Portfolio/Images/Pink Modern Professional Cv Resume.pdf" download class="button1" >Telechargez mon CV</a>
+      </div>
+        <!------------les boites------------->
+      <div class="contact-right">
+        <form name="'submit-to-google-sheet'" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="20b804b4-31c9-4ddb-ae02-f332df61fae0">
+          <input type="text" name="name" placeholder="Votre nom" required>
+          <input type="email" name="email" placeholder="Votre e-mail" required>
+          <textarea name="message" rows="6" placeholder="votre message"></textarea>
+          <div class="h-captcha" data-captcha="true"></div>
+          <button type="submit" class="btn btn2">Envoyer</button>
+        </form>
+        </div>
+    </div>
+    <div class="copyright">
+      <p>copyright &copy; Imene A.<i class="fa-solid fa-heart"></i> </p>
+    </div>
+  </div>
+
+
+  
+    <!------------JS------------->
+    <script> 
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right ="0"
+      }
+      function closemenu(){
+        sidemenu.style.right ="-200px"
+      }
+    </script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+  </body>
+</html>
