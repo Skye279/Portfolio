@@ -377,6 +377,7 @@ background: #8c91c2;
 .copyright i{
     color: #f5cdfd;
     transition: all 0.5s;
+    cursor: pointer;
 }
 .copyright i:hover{
     transform: scale(1.3);
